@@ -1,0 +1,41 @@
+#play {
+display: inline-block;
+color: gray;
+font-size: 3rem;
+margin: 1rem;
+}
+
+#pause{
+display: inline-block;
+color: gray;
+font-size: 3rem;
+margin: 1rem;
+}
+
+#next{
+display: inline-block;
+color: gray;
+font-size: 3rem;
+margin: 1rem;
+}
+
+#prev{
+display: inline-block;
+color: gray;
+font-size: 3rem;
+margin: 1rem;
+}
+
+#gallery img {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#gallery img.show {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+#gallery img.hidden {
+    display: none;
+}
